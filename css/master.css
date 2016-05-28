@@ -1,0 +1,152 @@
+/*
+Biznobo Custom CSS
+Author: Biznobo
+Updated: Jan. 27th, 2016
+*/
+
+
+/*==============================
+            Global
+================================*/
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -ms-box-sizing: inherit;
+    -o-box-sizing: inherit;
+    box-sizing: inherit
+}
+body {
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+img {
+    border: 0;
+}
+.remove-margin-bottom {
+  margin: 0 !important;
+}
+/*==============================
+            Nav Bar
+================================*/
+
+.nav-styling {
+    background-color: #fff;
+}
+.nav-styling li a {
+    color: #4a4a4a;
+}
+.nav-styling li a.btn-flat {
+    color: #FF9800;
+}
+.nav_brand_logo {
+    width: 4.5em;
+    margin: 0 20%;
+    vertical-align: middle;
+}
+.side-nav .btn {
+    height: 100%;
+}
+i.icon-gray {
+    color: #616161;
+}
+
+/*==============================
+             Main
+================================*/
+
+.main {
+    overflow: hidden;
+    width: 100%;
+    background: none;
+}
+
+/*==============================
+          Sections
+================================*/
+
+.section {
+    position: relative;
+    padding: 0;
+}
+
+/*====== Section 1 =============*/
+
+#section-header {
+    margin: 0 auto;
+    padding: 0;
+    max-width: inherit;
+}
+.header_copy {
+  margin: 15% 10% 0 10%;
+  max-width: 80%;
+}
+#section-header button {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 48.2%;
+  top: 80%;
+}
+@media only screen and (min-width: 1400px) {
+  #section-header button {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: 48.7%;
+    top: 80%;
+  }
+  .sign-up-btn {
+    margin: 3em 0;
+    height: 54px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header_copy {
+    margin: 15% 5% 0 5%;
+    max-width: 90%;
+    text-align: center;
+  }
+  .sign-up-btn {
+    margin: 3em 0;
+  }
+}
+#header-img {
+  width: 100%;
+  min-height: 100%;
+}
+/*====== Section 2 =============*/
+
+#section-2 {
+  position: relative;
+  margin-top: -0.5%;
+  padding: 6%;
+  color: #fff;
+}
+#section-2 h5 {
+  line-height: 1.45;
+}
+/*====== Section 3 =============*/
+
+#section-3 h4 {
+  margin-top: 10%;
+}
+#section-3 h6 {
+
+  margin: 4% 0;
+}
+/*====== Section 4 =============*/
+
+#section-4 {
+  background-color: #fafafa;
+}
+/*==============================
+           Footer
+================================*/
