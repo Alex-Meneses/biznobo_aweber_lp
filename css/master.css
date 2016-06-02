@@ -165,10 +165,11 @@ i.icon-gray {
 }
 .card-icons {
   width: 2em;
+  margin:0 0 20% -4%;
 }
 .touchid-card-icon {
   width: 2.5em;
-  margin-top: -2%;
+  margin: -2% 0 20% -7%;
 }
 .section-spacing {
   padding: 8% 0;
