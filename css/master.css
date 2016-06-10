@@ -188,14 +188,17 @@ i.icon-gray {
 #section-6 {
   padding-bottom: 5%;
   background-color: #fafafa;
-
 }
 #pricing-card{
-  margin: 10% 0 20% 0;
+  margin: 5% 0 15% 0;
 }
+
 #price {
   font-size: 4rem;
 }
 /*==============================
            Footer
 ================================*/
+footer {
+  margin-top: 0px !important;
+}
